@@ -1,0 +1,112 @@
+[
+  {
+    "question_id": "q_sde_leadership_001",
+    "question_text": "Tell me about a time you resolved a conflict between two engineers who disagreed on the technical approach.",
+    "topic": "leadership",
+    "difficulty": "medium",
+    "role": ["sde", "backend", "fullstack"],
+    "company": ["amazon", "google", "meta", "general"],
+    "ideal_hints": "Active listening demonstrated · Technical discussion facilitated not imposed · Data-driven or objective tie-breaker used · Team cohesion maintained after decision · Quantified outcome stated (timing, metric, or team impact)",
+    "follow_up": "What would you do differently if you faced the same situation today?",
+    "star_weights": {"situation": 0.15, "task": 0.25, "action": 0.40, "result": 0.20}
+  },
+  {
+    "question_id": "q_sde_leadership_002",
+    "question_text": "Describe a situation where you had to influence a decision without having direct authority.",
+    "topic": "leadership",
+    "difficulty": "hard",
+    "role": ["sde", "senior", "backend", "fullstack"],
+    "company": ["amazon", "google", "general"],
+    "ideal_hints": "Clear articulation of the decision at stake · Stakeholders identified and mapped · Persuasion through data or evidence, not authority · Clear ownership of the outcome · Measurable business or technical impact described",
+    "follow_up": "How did you handle it when people did not agree with your recommendation?",
+    "star_weights": {"situation": 0.15, "task": 0.20, "action": 0.45, "result": 0.20}
+  },
+  {
+    "question_id": "q_sde_failure_001",
+    "question_text": "Tell me about a time you made a significant mistake. What happened and what did you learn?",
+    "topic": "failure_learning",
+    "difficulty": "medium",
+    "role": ["sde", "backend", "frontend", "fullstack", "general"],
+    "company": ["amazon", "google", "meta", "general"],
+    "ideal_hints": "Honest ownership of the mistake without deflection · Clear description of impact · Concrete corrective actions taken · Systemic fix implemented to prevent recurrence · Evidence that the lesson was actually applied later",
+    "follow_up": "Did you share what you learned with your team?",
+    "star_weights": {"situation": 0.15, "task": 0.20, "action": 0.35, "result": 0.30}
+  },
+  {
+    "question_id": "q_sde_delivery_001",
+    "question_text": "Tell me about a time you delivered a project under tight deadlines or with limited resources.",
+    "topic": "delivery",
+    "difficulty": "medium",
+    "role": ["sde", "backend", "fullstack", "general"],
+    "company": ["amazon", "general"],
+    "ideal_hints": "Prioritization methodology explicitly stated · Trade-off decisions explained with rationale · Stakeholder communication described · Delivery confirmed with timeline · Quality or technical debt implications acknowledged",
+    "follow_up": "Were there any quality trade-offs you had to make? How did you handle them?",
+    "star_weights": {"situation": 0.15, "task": 0.25, "action": 0.40, "result": 0.20}
+  },
+  {
+    "question_id": "q_sde_system_001",
+    "question_text": "Describe a time you designed or significantly improved a system that needed to scale.",
+    "topic": "system_design",
+    "difficulty": "hard",
+    "role": ["sde", "backend", "senior"],
+    "company": ["amazon", "google", "meta", "general"],
+    "ideal_hints": "Scalability requirements quantified (users, throughput, latency) · Architecture choices explained with alternatives considered · Bottlenecks identified proactively · Monitoring and observability addressed · Real production outcome described",
+    "follow_up": "What would you change about the design if you had to do it again at 10x scale?",
+    "star_weights": {"situation": 0.20, "task": 0.20, "action": 0.40, "result": 0.20}
+  },
+  {
+    "question_id": "q_sde_collaboration_001",
+    "question_text": "Tell me about a time you worked with a cross-functional team to deliver a product feature.",
+    "topic": "collaboration",
+    "difficulty": "easy",
+    "role": ["sde", "backend", "frontend", "fullstack", "general"],
+    "company": ["amazon", "google", "meta", "general"],
+    "ideal_hints": "Specific cross-functional partners named (PM, design, data) · Communication cadence described · Blockers identified and addressed · Individual contribution clear · Launch outcome quantified",
+    "follow_up": "What was the most challenging communication problem you had with the non-technical members?",
+    "star_weights": {"situation": 0.15, "task": 0.20, "action": 0.40, "result": 0.25}
+  },
+  {
+    "question_id": "q_sde_ambiguity_001",
+    "question_text": "Tell me about a time you had to make a decision with incomplete or ambiguous information.",
+    "topic": "ambiguity",
+    "difficulty": "hard",
+    "role": ["sde", "senior", "backend", "fullstack"],
+    "company": ["amazon", "google", "general"],
+    "ideal_hints": "Explicit acknowledgment of ambiguity · Information gathering steps taken · Decision framework or criteria used · Risk assessed and communicated · Outcome evaluated retrospectively",
+    "follow_up": "Looking back, do you think you made the right call? What would you do differently?",
+    "star_weights": {"situation": 0.20, "task": 0.20, "action": 0.40, "result": 0.20}
+  },
+  {
+    "question_id": "q_sde_mentoring_001",
+    "question_text": "Describe a time you mentored or helped develop a junior team member.",
+    "topic": "mentoring",
+    "difficulty": "medium",
+    "role": ["sde", "senior", "backend", "fullstack"],
+    "company": ["amazon", "google", "general"],
+    "ideal_hints": "Specific gap identified in the mentee · Tailored approach described not generic advice · Regular check-ins or feedback loops established · Measurable improvement in mentee observed · Long-term impact on mentee career described",
+    "follow_up": "How did your approach change when you realized the initial approach was not working?",
+    "star_weights": {"situation": 0.15, "task": 0.20, "action": 0.45, "result": 0.20}
+  },
+  {
+    "question_id": "q_sde_innovation_001",
+    "question_text": "Tell me about a time you proposed and implemented an innovative solution that others had not considered.",
+    "topic": "innovation",
+    "difficulty": "hard",
+    "role": ["sde", "backend", "fullstack", "senior"],
+    "company": ["amazon", "google", "meta", "general"],
+    "ideal_hints": "Problem clearly defined before solution · Why existing solutions were insufficient · Creative leap explained · Stakeholder buy-in obtained · Measurable outcome from implementation",
+    "follow_up": "How did you get buy-in from skeptical stakeholders?",
+    "star_weights": {"situation": 0.15, "task": 0.20, "action": 0.45, "result": 0.20}
+  },
+  {
+    "question_id": "q_sde_ownership_001",
+    "question_text": "Tell me about a time you took ownership of something that was not technically your responsibility.",
+    "topic": "ownership",
+    "difficulty": "medium",
+    "role": ["sde", "backend", "fullstack", "general"],
+    "company": ["amazon", "general"],
+    "ideal_hints": "Clear explanation of why you stepped up · Actions taken beyond your defined role · Impact on the team or project from your intervention · Recognition of boundaries while still helping · Outcome that would not have happened without you",
+    "follow_up": "How did your team or manager respond to your taking ownership?",
+    "star_weights": {"situation": 0.15, "task": 0.20, "action": 0.45, "result": 0.20}
+  }
+]

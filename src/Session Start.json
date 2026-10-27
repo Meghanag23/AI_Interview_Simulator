@@ -1,0 +1,96 @@
+Session Start
+
+Request:
+{
+  "candidate_role": "Backend SDE",
+  "target_company": "Amazon",
+  "focus_areas": [
+    "leadership",
+    "delivery"
+  ]
+}
+
+Response
+{
+  "session_id": "f11dc3f3",
+  "message": "Welcome to your AI Interview Simulator session.\n\nRole: Backend SDE\nCompany: Amazon\nCurrent difficulty: medium\n\nQuestion 1:\nTell me about a time you delivered a project under tight deadlines or with limited resources."
+}
+
+
+Answer api
+Request:
+{
+  "session_id": "f11dc3f3",
+  "candidate_answer": "At my previous company, I worked on a backend service that had to be delivered before a customer demo. The timeline was very tight because we had only one week left and two important APIs were still incomplete. I was responsible for finishing the API integration and making sure the service was stable. I first listed the must-have features, separated them from nice-to-have items, and discussed the priority with my team. Then I implemented the main API flow, added unit tests, and coordinated with QA for early validation. We delivered the feature on time for the demo, and the customer was able to test the workflow successfully."
+}
+
+
+{
+  "session_id": "b95ea2cb",
+  "agent_message": "STAR Evaluation:\nSituation: 1/10\nTask: 1/10\nAction: 6/10\nResult: 5/10\nOverall: 4.0/10\n\nFeedback: To strengthen your response, describe any quality compromises or technical debt incurred during the rapid delivery and how you planned to address them post-demo. Elaborate on the rationale behind your trade-off decisions between 'must-have' and 'nice-to-have' features, and who was involved in making those critical choices beyond just your immediate team.\nWeakest component: Quality or technical debt implications acknowledged\n\nUpdated difficulty: easy\nQuestions completed: 1/6\n\nNext Question 2:\nTell me about a time you worked with a cross-functional team to deliver a product feature.",
+  "session_complete": false,
+  "questions_asked": 1
+}
+
+
+{
+  "session_id": "665ddbc4",
+  "candidate_role": "Backend SDE",
+  "target_company": "Amazon",
+  "total_questions": 3,
+  "average_score": 7.22,
+  "final_difficulty": "hard",
+  "scores_by_topic": {
+    "delivery": 6.1,
+    "leadership": 7.35,
+    "ownership": 8.2
+  },
+  "weakest_topic": "delivery",
+  "most_common_weak_component": "action",
+  "recommendations": [
+    "Practice more delivery questions — your average score in this area was 6.1/10",
+    "Give more detail on the specific steps YOU took. Walk through your exact decision process.",
+    "Good foundation. Record yourself answering and practice until answers feel natural."
+  ],
+  "question_breakdown": [
+    {
+      "question": "Tell me about a time you delivered a project under tight deadlines or with limited resources.",
+      "topic": "delivery",
+      "scores": {
+        "situation": 7,
+        "task": 7,
+        "action": 6,
+        "result": 5,
+        "overall": 6.1,
+        "feedback": "To strengthen your answer, elaborate on the specific trade-offs you made due to the tight deadline and the rationale behind those choices. Additionally, consider discussing any quality or technical debt implications that arose from delivering under pressure and how those were addressed or planned to be addressed."
+      },
+      "feedback": "To strengthen your answer, elaborate on the specific trade-offs you made due to the tight deadline and the rationale behind those choices. Additionally, consider discussing any quality or technical debt implications that arose from delivering under pressure and how those were addressed or planned to be addressed."
+    },
+    {
+      "question": "Tell me about a time you resolved a conflict between two engineers who disagreed on the technical approach.",
+      "topic": "leadership",
+      "scores": {
+        "situation": 8,
+        "task": 8,
+        "action": 7,
+        "result": 7,
+        "overall": 7.35,
+        "feedback": "To strengthen your Action, describe specific techniques you used to actively listen and ensure both engineers felt heard during the discussion. Additionally, elaborate on the steps you took to build consensus and get buy-in from both engineers on the final decision."
+      },
+      "feedback": "To strengthen your Action, describe specific techniques you used to actively listen and ensure both engineers felt heard during the discussion. Additionally, elaborate on the steps you took to build consensus and get buy-in from both engineers on the final decision."
+    },
+    {
+      "question": "Tell me about a time you took ownership of something that was not technically your responsibility.",
+      "topic": "ownership",
+      "scores": {
+        "situation": 8,
+        "task": 7,
+        "action": 9,
+        "result": 8,
+        "overall": 8.2,
+        "feedback": "To strengthen your story, clearly articulate the specific goal or objective you set for yourself when you decided to take ownership. Consider adding specific metrics to quantify the impact, such as the percentage reduction in unnoticed job failures or the improvement in on-time file delivery."
+      },
+      "feedback": "To strengthen your story, clearly articulate the specific goal or objective you set for yourself when you decided to take ownership. Consider adding specific metrics to quantify the impact, such as the percentage reduction in unnoticed job failures or the improvement in on-time file delivery."
+    }
+  ]
+}

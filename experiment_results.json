@@ -1,0 +1,167 @@
+{
+  "total_queries": 5,
+  "rag": {
+    "mean_precision_at_3": 0.4,
+    "mean_mrr": 1.0,
+    "mean_latency_ms": 62.9
+  },
+  "bm25": {
+    "mean_precision_at_3": 0.2666,
+    "mean_mrr": 0.8,
+    "mean_latency_ms": 0.1
+  },
+  "per_query_results": [
+    {
+      "query_id": "q001",
+      "query_text": "conflict resolution between engineers",
+      "method": "rag",
+      "retrieved_ids": [
+        "q_sde_leadership_001",
+        "q_sde_collaboration_001",
+        "q_sde_leadership_002"
+      ],
+      "relevant_ids": [
+        "q_sde_leadership_001"
+      ],
+      "precision_at_3": 0.3333,
+      "mrr": 1.0,
+      "latency_ms": 249.15
+    },
+    {
+      "query_id": "q001",
+      "query_text": "conflict resolution between engineers",
+      "method": "bm25",
+      "retrieved_ids": [
+        "q_sde_leadership_001"
+      ],
+      "relevant_ids": [
+        "q_sde_leadership_001"
+      ],
+      "precision_at_3": 0.3333,
+      "mrr": 1.0,
+      "latency_ms": 0.08
+    },
+    {
+      "query_id": "q002",
+      "query_text": "leadership without authority influencing team",
+      "method": "rag",
+      "retrieved_ids": [
+        "q_sde_leadership_002",
+        "q_sde_mentoring_001",
+        "q_sde_ownership_001"
+      ],
+      "relevant_ids": [
+        "q_sde_leadership_002"
+      ],
+      "precision_at_3": 0.3333,
+      "mrr": 1.0,
+      "latency_ms": 22.28
+    },
+    {
+      "query_id": "q002",
+      "query_text": "leadership without authority influencing team",
+      "method": "bm25",
+      "retrieved_ids": [
+        "q_sde_leadership_002",
+        "q_sde_collaboration_001",
+        "q_sde_mentoring_001"
+      ],
+      "relevant_ids": [
+        "q_sde_leadership_002"
+      ],
+      "precision_at_3": 0.3333,
+      "mrr": 1.0,
+      "latency_ms": 0.06
+    },
+    {
+      "query_id": "q003",
+      "query_text": "handling disagreement on technical approach",
+      "method": "rag",
+      "retrieved_ids": [
+        "q_sde_leadership_001",
+        "q_sde_ambiguity_001",
+        "q_sde_leadership_002"
+      ],
+      "relevant_ids": [
+        "q_sde_leadership_001",
+        "q_sde_leadership_002"
+      ],
+      "precision_at_3": 0.6667,
+      "mrr": 1.0,
+      "latency_ms": 9.16
+    },
+    {
+      "query_id": "q003",
+      "query_text": "handling disagreement on technical approach",
+      "method": "bm25",
+      "retrieved_ids": [
+        "q_sde_leadership_001"
+      ],
+      "relevant_ids": [
+        "q_sde_leadership_001",
+        "q_sde_leadership_002"
+      ],
+      "precision_at_3": 0.3333,
+      "mrr": 1.0,
+      "latency_ms": 0.05
+    },
+    {
+      "query_id": "q004",
+      "query_text": "learning from failure and mistakes",
+      "method": "rag",
+      "retrieved_ids": [
+        "q_sde_failure_001",
+        "q_sde_ambiguity_001",
+        "q_sde_leadership_002"
+      ],
+      "relevant_ids": [
+        "q_sde_failure_001"
+      ],
+      "precision_at_3": 0.3333,
+      "mrr": 1.0,
+      "latency_ms": 9.12
+    },
+    {
+      "query_id": "q004",
+      "query_text": "learning from failure and mistakes",
+      "method": "bm25",
+      "retrieved_ids": [],
+      "relevant_ids": [
+        "q_sde_failure_001"
+      ],
+      "precision_at_3": 0.0,
+      "mrr": 0.0,
+      "latency_ms": 0.04
+    },
+    {
+      "query_id": "q005",
+      "query_text": "delivering project under pressure tight deadline",
+      "method": "rag",
+      "retrieved_ids": [
+        "q_sde_delivery_001",
+        "q_sde_collaboration_001",
+        "q_sde_innovation_001"
+      ],
+      "relevant_ids": [
+        "q_sde_delivery_001"
+      ],
+      "precision_at_3": 0.3333,
+      "mrr": 1.0,
+      "latency_ms": 24.7
+    },
+    {
+      "query_id": "q005",
+      "query_text": "delivering project under pressure tight deadline",
+      "method": "bm25",
+      "retrieved_ids": [
+        "q_sde_delivery_001"
+      ],
+      "relevant_ids": [
+        "q_sde_delivery_001"
+      ],
+      "precision_at_3": 0.3333,
+      "mrr": 1.0,
+      "latency_ms": 0.05
+    }
+  ]
+}
