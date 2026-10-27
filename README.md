@@ -1,4 +1,4 @@
-# RAG-Enhanced Autonomous AI Interview Simulator
+# AI Interview Simulator
 
 ## 1. Project Overview
 
